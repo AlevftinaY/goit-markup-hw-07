@@ -22,14 +22,19 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width:768px)">
+  
+    <link rel="stylesheet" href="./css/desctop.css" media="screen and (min-width:1158px)">
+    
+    
   </head>
   
   <body>
     <header class="page-header">
       <div class="container header-container">
         <nav class="page-nav">
-          <!-- Навігація на інші сторінки-->
+          
           <a class="logo header-logo" href="./index.html"
             >Web<span class="logo-dark">Studio</span></a
           >
@@ -45,8 +50,8 @@
             </li>
           </ul>
         </nav>
-        <address class="contact">
-          <ul class="menu">
+        <address class="heder-adress">
+          <ul class="heder-contacts">
             <li>
               <a class="contact" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -59,24 +64,58 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="mob-menu-btn js-open-menu">open</button>
       </div>
-    </header>
+      <div class="modal-mob js-menu-container">
+        <button type="button" class="close-btn-mob js-close-menu">close</button>
+        <nav class="modal-page-nav">
+          
+          <ul class="menu-modal">
+            <li class="menu-item-modal">
+              <a class="menu-link-modal modal-current" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item-modal">
+              <a class="menu-link-modal" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item-modal">
+              <a class="menu-link-modal" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="heder-adress-mob">
+          <ul class="heder-contacts-mob">
+            <li>
+              <a class="contact-mob" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-mob" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
 
-    <main>
-      <!------------------- HERO -------------------->
-      <section class="hero">
-        <div class="container">
-          <h1 class="hero-text text-container">
-            Effective Solutions for Your Business
-          </h1>
-          <button class="modal-btn" data-modal-open type="button">
-            Order Service
-          </button>
-        </div>
-      </section>
+    </header>
+              <!------------------- HERO -------------------->
+     <main>
+        
+        <!--<section class="hero">
+          <div class="container">
+            <h1 class="hero-text">
+              Effective Solutions for Your Business
+            </h1>
+            <button class="modal-btn" data-modal-open type="button">
+              Order Service
+            </button>
+          </div>
+        </section>-->
+
 
       <!------------------------- Section2 -------------------->
-      <section class="feature">
+      <!--<section class="feature">
         <div class="container feature-container">
           <h2 class="visually-hidden">feature</h2>
           <ul class="feature-list">
@@ -134,7 +173,7 @@
       </section>
 
       <!--------------------- -Section3---------------------->
-      <section class="aside">
+      <!--<section class="aside">
         <div class="container">
           <h2 class="aside-title">What Are We Doing</h2>
           <ul class="aside-list">
@@ -149,10 +188,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section>-->
       <!-----------------------end--Section3----------------->
       <!------------------- Секція 4------------------------->
-      <section class="team">
+      <!--<section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
@@ -306,9 +345,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section>-->
       <!-------------------Customers------------------------->
-      <section class="customers">
+      <!--<section class="customers">
         <div class="container">
           <h2 class="cust-title">Customers</h2>
           <ul class="cust-list list">
@@ -360,10 +399,10 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main>-->
     <!------------------- Підваал---------------------------->
 
-    <footer class="footer">
+    <!--<footer class="footer">
       <div class="container socfoot">
         <div class="container-foot">
           <a class="logo container-logo" href="./index.html"
@@ -416,9 +455,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer>-->
     <!------------------------modal-------------------------->
-    <div class="backdrop is-hidden" data-modal>
+    <!--<div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-close" width="8" height="8">
@@ -480,7 +519,8 @@
           <button class="modal-send" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div>-->
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
