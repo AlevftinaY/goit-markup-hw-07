@@ -112,8 +112,9 @@ flex-basis: calc((100% - 72px) / 4);
 }
 
 /*----------------Section3----------------------------*/
-/*
+
 .aside {
+    display: block;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -125,11 +126,9 @@ flex-basis: calc((100% - 72px) / 4);
 }
 .aside-img {
     border: var(--border-solid);
-}*/
+}
 
-/*----------------end--Section3---------*/
 
-/*
 .aside-title, .team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -148,9 +147,9 @@ flex-basis: calc((100% - 72px) / 4);
     color: var(--navy-blue-color);
     letter-spacing: 0.02em;
     
- }*/
+ }
  /*===========Section4==========*/
- /*
+ 
 .team {
     background-color: #F4F4FD;
     padding-top: 120px;
@@ -226,7 +225,6 @@ flex-basis: calc((100% - 72px) / 4);
     visibility: hidden;
     }
 
-*/
  /*====================PORTFOLIO BODY=====================*/
  /*
 .heading{
