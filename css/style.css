@@ -81,7 +81,7 @@ body {
 .logo-dark {
     color: var(--navy-blue-color)
 }
-@media screen and (max-width:767px) {
+@media screen and (max-width:767px){
     .heder-adress, .menu{
         display: none;
     }
@@ -340,10 +340,8 @@ body {
 
 /*===========Section4==========*/
 @media screen and (max-width:767px){
-    .team {
-    display: block;
-}
- 
+    .team
+     display: block;
     }
 
 .team {
@@ -498,7 +496,7 @@ body {
 
 .footer {
     background-color: var(--navy-blue-color);
-    padding: 96px 0 96px 0;
+    padding: 100px 0 100px 0;
   
 }
 
