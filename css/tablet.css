@@ -243,15 +243,12 @@ flex-basis: calc((100% - 24px) / 2);
 .footer {
     background-color: var(--navy-blue-color);
     padding: 96px 0 96px 0;
-    
-    
 }
 
 .container-foot{
     width: 264px;
     margin-left: 80px;
 }
-
 
  .logo-wiht {
     color:var(--background-color);
@@ -272,7 +269,11 @@ flex-basis: calc((100% - 24px) / 2);
  }
 
  .socfoot{
+    
     display: flex;
+    
+    flex-direction: row;
+   
     flex-wrap: wrap;
  }
 
@@ -318,8 +319,8 @@ flex-basis: calc((100% - 24px) / 2);
 }
 
 .footer-email {
-    margin-top: 76px;
     margin-left: 80px;
+    
 }
 
 .footer-input::placeholder {
@@ -346,7 +347,7 @@ flex-basis: calc((100% - 24px) / 2);
 }
 
 .footer-form {
-  display: flex;  
+  display: block;
 }
 
 .footer-modal-send{
